@@ -1,0 +1,24 @@
+2022-04-30 12:22:55.404 UTC,,,5178,,626d2a1f.143a,1,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-04-30 12:22:55.404 UTC,,,5178,,626d2a1f.143a,2,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"starting PostgreSQL 14.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-04-30 12:22:55.405 UTC,,,5178,,626d2a1f.143a,3,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-04-30 12:22:55.409 UTC,,,5178,,626d2a1f.143a,4,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-04-30 12:22:55.424 UTC,,,5182,,626d2a1f.143e,1,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"database system was shut down at 2022-04-26 15:01:22 UTC",,,,,,,,,"","startup",,0
+2022-04-30 12:22:55.479 UTC,,,5178,,626d2a1f.143a,5,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-04-30 12:23:12.285 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,1,"idle",2022-04-30 12:23:01 UTC,3/2,0,LOG,00000,"statement: SELECT * FROM payments;",,,,,,,,,"psql","client backend",,0
+2022-04-30 12:35:20.397 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,2,"idle",2022-04-30 12:23:01 UTC,3/3,0,LOG,00000,"statement: SELECT * FROM employees;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:26:21.554 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,3,"idle",2022-04-30 12:23:01 UTC,3/4,0,LOG,00000,"statement: CREATE SCHEMA IF NOT EXISTS employee_schema AUTHORIZATION employees;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:26:21.629 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,4,"CREATE SCHEMA",2022-04-30 12:23:01 UTC,3/4,0,ERROR,42704,"role ""employees"" does not exist",,,,,,"CREATE SCHEMA IF NOT EXISTS employee_schema AUTHORIZATION employees;",,,"psql","client backend",,0
+2022-04-30 13:26:26.250 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,5,"idle",2022-04-30 12:23:01 UTC,3/5,0,LOG,00000,"statement: CREATE SCHEMA IF NOT EXISTS employee_schema AUTHORIZATION employee;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:26:44.866 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,6,"idle",2022-04-30 12:23:01 UTC,3/6,0,LOG,00000,"statement: CREATE SCHEMA IF NOT EXISTS hr_schema AUTHORIZATION HR;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:33:20.458 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,7,"idle",2022-04-30 12:23:01 UTC,3/7,0,LOG,00000,"statement: SELECT * FROM hr_schema;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:33:20.459 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,8,"SELECT",2022-04-30 12:23:01 UTC,3/7,0,ERROR,42P01,"relation ""hr_schema"" does not exist",,,,,,"SELECT * FROM hr_schema;",15,,"psql","client backend",,0
+2022-04-30 13:33:44.035 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,9,"idle",2022-04-30 12:23:01 UTC,3/8,0,LOG,00000,"statement: SELECT * FROM employee_schema;",,,,,,,,,"psql","client backend",,0
+2022-04-30 13:33:44.036 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,10,"SELECT",2022-04-30 12:23:01 UTC,3/8,0,ERROR,42P01,"relation ""employee_schema"" does not exist",,,,,,"SELECT * FROM employee_schema;",15,,"psql","client backend",,0
+2022-04-30 13:33:52.410 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,11,"idle",2022-04-30 12:23:01 UTC,3/9,0,ERROR,42601,"syntax error at or near ""employee_schema""",,,,,,"SELECT * employee_schema;",10,,"psql","client backend",,0
+2022-04-30 18:22:04.196 UTC,,,5178,,626d2a1f.143a,6,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"received smart shutdown request",,,,,,,,,"","postmaster",,0
+2022-04-30 18:22:15.693 UTC,,,5178,,626d2a1f.143a,7,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-04-30 18:22:17.106 UTC,"postgres","humanResources",5192,"[local]",626d2a25.1448,12,"idle",2022-04-30 12:23:01 UTC,3/0,0,FATAL,57P01,"terminating connection due to administrator command",,,,,,,,,"psql","client backend",,0
+2022-04-30 18:22:29.117 UTC,,,5178,,626d2a1f.143a,8,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 5188) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-04-30 18:22:29.494 UTC,,,5183,,626d2a1f.143f,1,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-04-30 18:22:30.517 UTC,,,5178,,626d2a1f.143a,9,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-04-30 18:22:47.892 UTC,,,5178,,626d2a1f.143a,10,,2022-04-30 12:22:55 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

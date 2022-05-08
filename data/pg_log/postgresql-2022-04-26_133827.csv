@@ -1,0 +1,16 @@
+2022-04-26 13:38:27.802 UTC,,,8401,,6267f5d3.20d1,1,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-04-26 13:38:27.802 UTC,,,8401,,6267f5d3.20d1,2,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"starting PostgreSQL 14.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-04-26 13:38:27.852 UTC,,,8401,,6267f5d3.20d1,3,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-04-26 13:38:27.854 UTC,,,8401,,6267f5d3.20d1,4,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-04-26 13:38:28.047 UTC,,,8407,,6267f5d4.20d7,1,,2022-04-26 13:38:28 UTC,,0,LOG,00000,"database system was shut down at 2022-04-20 19:55:58 UTC",,,,,,,,,"","startup",,0
+2022-04-26 13:38:28.274 UTC,,,8401,,6267f5d3.20d1,5,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-04-26 13:39:10.964 UTC,"postgres","humanResources",8421,"[local]",6267f5e3.20e5,1,"idle",2022-04-26 13:38:43 UTC,3/2,0,LOG,00000,"statement: SELECT pg_reload_conf();",,,,,,,,,"psql","client backend",,0
+2022-04-26 13:39:11.077 UTC,,,8401,,6267f5d3.20d1,6,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-04-26 13:39:29.779 UTC,"postgres","humanResources",8421,"[local]",6267f5e3.20e5,2,"idle",2022-04-26 13:38:43 UTC,3/3,0,LOG,00000,"statement: SHOW config_file;",,,,,,,,,"psql","client backend",,0
+2022-04-26 14:26:52.522 UTC,"postgres","humanResources",11801,"[local]",6268011a.2e19,1,"idle",2022-04-26 14:26:34 UTC,3/177,0,LOG,00000,"statement: CREATE EXTENSION pgaudit;",,,,,,,,,"psql","client backend",,0
+2022-04-26 14:26:52.560 UTC,"postgres","humanResources",11801,"[local]",6268011a.2e19,2,"CREATE EXTENSION",2022-04-26 14:26:34 UTC,3/177,0,ERROR,58P01,"could not open extension control file ""/usr/local/pgsql/share/extension/pgaudit.control"": No such file or directory",,,,,,"CREATE EXTENSION pgaudit;",,,"psql","client backend",,0
+2022-04-26 15:01:22.582 UTC,,,8401,,6267f5d3.20d1,7,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"received smart shutdown request",,,,,,,,,"","postmaster",,0
+2022-04-26 15:01:22.672 UTC,,,8401,,6267f5d3.20d1,8,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-04-26 15:01:22.673 UTC,,,8401,,6267f5d3.20d1,9,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 8413) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-04-26 15:01:22.675 UTC,,,8408,,6267f5d4.20d8,1,,2022-04-26 13:38:28 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-04-26 15:01:23.106 UTC,,,8401,,6267f5d3.20d1,10,,2022-04-26 13:38:27 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0

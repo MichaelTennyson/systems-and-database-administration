@@ -1,0 +1,13 @@
+2022-05-04 12:04:02.699 UTC,,,3820,,62726bb2.eec,1,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"ending log output to stderr",,"Future log output will go to log destination ""csvlog"".",,,,,,,"","postmaster",,0
+2022-05-04 12:04:02.699 UTC,,,3820,,62726bb2.eec,2,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"starting PostgreSQL 14.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",,,,,,,,,"","postmaster",,0
+2022-05-04 12:04:02.748 UTC,,,3820,,62726bb2.eec,3,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"listening on IPv4 address ""127.0.0.1"", port 5432",,,,,,,,,"","postmaster",,0
+2022-05-04 12:04:02.762 UTC,,,3820,,62726bb2.eec,4,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2022-05-04 12:04:02.797 UTC,,,3827,,62726bb2.ef3,1,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"database system was shut down at 2022-05-03 21:02:08 UTC",,,,,,,,,"","startup",,0
+2022-05-04 12:04:02.862 UTC,,,3820,,62726bb2.eec,5,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.458 UTC,,,3820,,62726bb2.eec,6,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"received SIGHUP, reloading configuration files",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.458 UTC,,,3820,,62726bb2.eec,7,,2022-05-04 12:04:02 UTC,,0,LOG,55P02,"parameter ""shared_buffers"" cannot be changed without restarting the server",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.458 UTC,,,3820,,62726bb2.eec,8,,2022-05-04 12:04:02 UTC,,0,LOG,F0000,"configuration file ""/usr/local/pgsql/data/postgresql.conf"" contains errors; unaffected changes were applied",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.459 UTC,,,3820,,62726bb2.eec,9,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"received smart shutdown request",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.677 UTC,,,3820,,62726bb2.eec,10,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"background worker ""logical replication launcher"" (PID 3833) exited with exit code 1",,,,,,,,,"","postmaster",,0
+2022-05-04 12:29:11.677 UTC,,,3828,,62726bb2.ef4,1,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"shutting down",,,,,,,,,"","checkpointer",,0
+2022-05-04 12:29:12.024 UTC,,,3820,,62726bb2.eec,11,,2022-05-04 12:04:02 UTC,,0,LOG,00000,"database system is shut down",,,,,,,,,"","postmaster",,0
